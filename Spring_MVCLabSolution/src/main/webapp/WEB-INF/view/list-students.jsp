@@ -43,7 +43,7 @@
 							class="btn btn-info btn-sm">Update</a> <a
 							href="/Spring_MVCLabSolution/student/delete?id=${student.id}"
 							class="btn btn-danger btn-sm"
-							onclick="if(!(confirm('Are you sure to delete this book?'))) return false">Delete</a>
+							onclick="if(!(confirm('Are you sure to delete this Student record?'))) return false">Delete</a>
 						</td>
 					</tr>
 				</c:forEach>
